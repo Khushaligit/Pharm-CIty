@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="https://thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title></title>
+</head>
+<body>
+<table>    
+<tr>    
+<td><h4>Login id: </h4></td>    
+<td><h4 th:number="${pharmEntity.loginId}"></h4></td>    
+</tr>    
+<tr>    
+<td><h4> UserName: </h4></td>    
+<td><h4 th:text="${pharmEntity.name}"></h4></td>    
+</tr>   
+<tr>    
+<td><h4>Password: </h4></td>    
+<td><h4 th:number="${pharmEntity.password}"></h4></td>    
+</tr> 
+</table>
+</body>
+</html>
